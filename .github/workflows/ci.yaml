@@ -18,8 +18,8 @@ jobs:
       with:
         node-version: '16'
     - uses: bahmutov/npm-install@v1
-    - run: yarn build
-    - run: npx keycloakify
+    - run: yarn
+    - run: yarn build-keycloak-theme
     - uses: actions/upload-artifact@v2
       with:
         name: standalone_keycloak_theme
