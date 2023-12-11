@@ -50,11 +50,13 @@ export default function Template(props: TemplateProps<KcContext, I18n>) {
 
     return (
         <div className={getClassName("kcLoginClass")}>
+{/*
             <div id="kc-header" className={getClassName("kcHeaderClass")}>
                 <div id="kc-header-wrapper" className={getClassName("kcHeaderWrapperClass")}>
                     {msg("loginTitleHtml", realm.displayNameHtml)}
                 </div>
             </div>
+*/}
 
             <div className={clsx(getClassName("kcFormCardClass"), displayWide && getClassName("kcFormCardAccountClass"))}>
                 <header className={getClassName("kcFormHeaderClass")}>

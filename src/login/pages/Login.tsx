@@ -5,7 +5,7 @@ import type {PageProps} from "keycloakify/login/pages/PageProps";
 import {useGetClassName} from "keycloakify/login/lib/useGetClassName";
 import type {KcContext} from "../kcContext";
 import type {I18n} from "../i18n";
-import nonShallPassImg from "../assets/non-shall-pass-background.jpeg";
+import nonShallPassImg from "../assets/knight401.png";
 
 export default function Login(props: PageProps<Extract<KcContext, { pageId: "login.ftl" }>, I18n>) {
     const {kcContext, i18n, doUseDefaultCss, Template, classes} = props;

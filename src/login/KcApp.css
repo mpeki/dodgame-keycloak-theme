@@ -12,31 +12,67 @@ a {
 	background: rgb(194, 204, 196);
 }
 
+.pf-c-page__background {
+	background: rgb(194, 204, 196) !important; /* Your desired color */
+}
+
+.loginContainer {
+	padding-top: 200px;
+	display: flex;
+	align-items: flex-start; /* Align children at the top */
+	justify-content: center;
+	height: auto; /* Let the not larger than the loginContainer */
+}
+
+.imageDiv {
+	display: flex;
+	align-self: flex-start;
+	height: 20%;
+}
+
+.imageDiv img {
+	padding-top: 20px;
+	max-width: 100%; /* Image will scale its width to the container */
+	height: 465px; /* Image will scale its height to the container */
+	object-fit: contain;
+}
+
+#kc-form {
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start; /* Align form at the top */
+}
+
+
+
+/*
+
 .loginContainer {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	height: 100vh;
+	height: 80vh;
 }
 
 .imageDiv {
 	display: flex;
 	width: 30%;
-	margin-right: 0;  /* ensures no margin on the right */
-	padding-right: 0;  /* ensures no padding on the right */
-	/*margin-top: 177px;*/
-	/*margin-bottom: 10px;*/
-	/*align-items: flex-end;*/
-	/*Width: 50%;*/
-	/*Background-image: url("../login/assets/non-shall-pass-background.jpeg");*/
-	/*Background-repeat: no-repeat;*/
+	margin-right: 0;  !* ensures no margin on the right *!
+	padding-right: 0;  !* ensures no padding on the right *!
+	!*margin-top: 177px;*!
+	!*margin-bottom: 10px;*!
+	!*align-items: flex-end;*!
+	!*Width: 50%;*!
+	!*Background-image: url("../login/assets/non-shall-pass-background.jpeg");*!
+	!*Background-repeat: no-repeat;*!
 }
 
 .imageDiv img {
-	width: 100%;  /* make the image fill its container */
-	height: 100%;  /* make the image fill its container */
+	width: 100%;  !* make the image fill its container *!
+	height: 100%;  !* make the image fill its container *!
 	object-fit: cover;
 }
+*/
 
 .my-font {
 	font-size: 14px;
